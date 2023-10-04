@@ -1,0 +1,52 @@
+======================================================
+Estado S000
+LOG: Estado onS000
+LOG: detectEvent025
+======================================================
+Estado S025
+LOG: Estado onS025
+LOG: detectEvent050
+======================================================
+Estado S075
+LOG: Estado onS075
+LOG: detectEvent025
+======================================================
+Estado S100
+LOG: Estado onS0100
+LOG: detectEventDEV
+LOG: DEVOLVE 100
+======================================================
+Estado S000
+LOG: Estado onS000
+LOG: detectEvent100
+======================================================
+Estado S100
+LOG: Estado onS0100
+LOG: detectEvent100
+LOG: DEVOLVE 50
+LOG: JÁ TEM SUFICIENTE: 50
+======================================================
+Estado S150
+LOG: Estado onS0150
+LOG: detectEventMEET
+======================================================
+Estado S000
+LOG: Estado onS000
+LOG: detectEventETIRPS
+LOG: No Money
+======================================================
+Estado S000
+LOG: Estado onS000
+LOG: detectEventETIRPS
+LOG: No Money
+======================================================
+Estado S000
+LOG: Estado onS000
+LOG: detectEvent050
+======================================================
+Estado S050
+LOG: Estado onS050
+LOG: detectEvent025
+======================================================
+Estado S075
+LOG: Estado onS075
