@@ -10,4 +10,6 @@ public:
     void setCursor(int x, int y); // Define a posição do cursor
     void displayOn(); // Liga o display
     void displayOff(); // Desliga o display
+    void displayMessage(const char* message); // Exibe uma mensagem no display
+
 };

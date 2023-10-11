@@ -8,7 +8,7 @@
 class Controlador {
 public:
     Controlador(Sensores* sensors);
-    Controlador(Sensores* sensors, Estado* estado);
+    Controlador(Sensores* sensors, Estado* estado, Display* display);
 
     Estado onCallbackS000();
     Estado onCallbackS025();
@@ -22,6 +22,8 @@ private:
     Sensores* sensors;
     Estado* state;
     Display* display;
+
+
 
     void resetController();
     void waitForTwoSeconds();

@@ -17,13 +17,12 @@ public:
     void setController(bool value);
     bool detectingSensor() const;
     void updateSensors(bool test025, bool test050, bool test100, bool testDEV, bool testMEET, bool testETIRPS);
+    static volatile unsigned int *data; // Declarando a variável como estática para definição em um único arquivo
+
 
 
 private:
-    Estado* state; // Referência para a classe Estado
     bool controller;
-
-    // Variáveis para manter o estado dos botões
     bool stateSensor025;
     bool stateSensor050;
     bool stateSensor100;
